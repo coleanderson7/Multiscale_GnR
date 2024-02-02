@@ -1,0 +1,6 @@
+Required Libraries: GNU Scientific Library (GSL)
+
+To compile on command line:
+g++ main.cpp -lgsl -lgslcblas -lm
+
+Reproduces Figure 1 from Latorre and Humphrey 2018, ZAMM

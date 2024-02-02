@@ -1,0 +1,7 @@
+gfortran -c globalvars.f90 -O2
+gfortran -c stress.f90 -O2
+gfortran -c experiments.f90 -O2
+gfortran -c kinetics.f90 -O2
+gfortran -c outputs.f90 -O2
+gfortran main.f90 globalvars.o stress.o kinetics.o outputs.o experiments.o -o GnR.exe -O2
+

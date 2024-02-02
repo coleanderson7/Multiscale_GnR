@@ -1,0 +1,11 @@
+Install Boost and GSL and build with make.
+
+G&R model for a pulmonary artery, with material parameters based on Ramachandra and Humphrey 2019 J Biomech. There is a ton of random things included in this that you may or may not be interested in. Let me know if you're curious about what any of the functions or flags are for.
+
+After compiling, the code will run for 360 days by default if executing:
+./gnr
+with no stimulus driving G&R.
+
+To add a pressure stimulus:
+./gnr -gamma_p 0.05
+increases the pressure from baseline by 5% at day 1.
